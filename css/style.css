@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+   
+}
+
+#formulario {
+    height: 300px;
+    width: 250px;
+    border: 2px solid white;
+    background-color: #ddd;
+}
+#lista {
+    display: flex;
+    align-items: center;
+
+}
+.cartoes{
+   
+    font-family: 'Arial';
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    min-width: 200px;
+    max-width: 200px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+ 
+
+}
+.cartoes:hover{
+    background-color: black;
+    color: greenyellow;
+    transform: scale(1.2);
+}
+#livros_cadastrados {
+    margin-top: 50px;
+    background-color: black;
+    color: greenyellow;
+    font-weight: 900;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#form_cadastro {
+
+    background-color: black;
+    color: greenyellow;
+    font-weight: 900;
+    padding: 15px;
+    border-radius: 10px;
+}
